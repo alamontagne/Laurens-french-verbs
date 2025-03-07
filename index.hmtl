@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Les verbes de Lauren</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">Les verbes de Lauren</h1>
+  <div id="score">Correct: 0 | Incorrect: 0</div>
+  <div id="question-container">
+    <div id="question"></div>
+  </div>
+  <input type="text" id="answer-input" placeholder="Type your answer here">
+  <br>
+  <div id="feedback"></div>
+  <div>
+    <button id="submit-btn">Submit</button>
+    <button id="restart-anytime-btn">Restart</button>
+  </div>
+  <button id="next-btn" style="display: none;">Next</button>
+  <button id="restart-btn" style="display: none;">Restart Test</button>
+  <div id="milestone"></div>
+  <script src="confetti.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
